@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noir &amp; Or | Fine Dining Restaurant</title>
+  <meta name="description" content="Noir & Or — an intimate fine dining room serving modern French cuisine after dark. Reserve your table." />
+
+  <!-- Google Fonts: Cormorant Garamond (display) + Jost (body/utility) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================= -->
+  <!-- PRELOADER                     -->
+  <!-- ============================= -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <span class="preloader__mark">N&amp;O</span>
+  </div>
+
+  <!-- ============================= -->
+  <!-- NAVBAR (glassmorphism)        -->
+  <!-- ============================= -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar__inner">
+      <a href="#home" class="navbar__logo">Noir <span>&amp;</span> Or</a>
+
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#home" class="nav-link active-link">Home</a></li>
+        <li><a href="#dishes" class="nav-link">Dishes</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#reserve" class="nav-link">Reserve</a></li>
+        <li><a href="#footer" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="#reserve" class="btn btn--outline navbar__cta">Book a Table</a>
+
+      <!-- Mobile hamburger toggle -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================= -->
+  <!-- HERO SECTION                  -->
+  <!-- ============================= -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__vignette" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <p class="eyebrow reveal-up">Est. 2012 &mdash; Downtown Dining Room</p>
+      <h1 class="hero__title">
+        <span class="reveal-up" style="--d:0.05s">Dining,</span>
+        <span class="reveal-up hero__title--italic" style="--d:0.2s">reimagined</span>
+        <span class="reveal-up" style="--d:0.35s">after dark.</span>
+      </h1>
+      <p class="hero__subtitle reveal-up" style="--d:0.5s">
+        Modern French cuisine, built around seasonal ingredients and slow-cooked craft &mdash;
+        served in a room designed for long, unhurried evenings.
+      </p>
+
+      <div class="hero__actions reveal-up" style="--d:0.65s">
+        <a href="#reserve" class="btn btn--gold">Reserve a Table</a>
+        <a href="#dishes" class="btn btn--ghost">View the Menu</a>
+      </div>
+    </div>
+
+    <a href="#dishes" class="hero__scroll" aria-label="Scroll to featured dishes">
+      <span class="hero__scroll-line"></span>
+      Scroll
+    </a>
+  </section>
+
+  <!-- ============================= -->
+  <!-- FEATURED DISHES                -->
+  <!-- ============================= -->
+  <section class="dishes" id="dishes">
+    <div class="section-heading">
+      <p class="eyebrow reveal-up">The Tasting Menu</p>
+      <h2 class="reveal-up">Signature Plates</h2>
+      <p class="section-heading__desc reveal-up">
+        A short list, chosen with intent. Each plate changes with the season &mdash;
+        these five define the room right now.
+      </p>
+    </div>
+
+    <div class="dishes__grid">
+
+      <!-- Dish Card 1 -->
+      <article class="dish-card reveal-up">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Seared duck breast with charred fig and red wine jus" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Seared Duck &amp; Fig</h3>
+            <span class="dish-card__price">$38</span>
+          </div>
+          <p>Charred fig, red wine jus, roasted heirloom carrot, hazelnut praline.</p>
+        </div>
+      </article>
+
+      <!-- Dish Card 2 -->
+      <article class="dish-card reveal-up" style="--d:0.1s">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80" alt="Truffle risotto with shaved black truffle and aged parmesan" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Black Truffle Risotto</h3>
+            <span class="dish-card__price">$34</span>
+          </div>
+          <p>Carnaroli rice, 24-month parmesan, butter-poached shallot, fresh truffle.</p>
+        </div>
+      </article>
+
+      <!-- Dish Card 3 -->
+      <article class="dish-card reveal-up" style="--d:0.2s">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80" alt="Dry-aged ribeye with bone marrow butter and confit potato" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Dry-Aged Ribeye</h3>
+            <span class="dish-card__price">$52</span>
+          </div>
+          <p>28-day dry-aged, bone marrow butter, confit fondant potato, jus gras.</p>
+        </div>
+      </article>
+
+      <!-- Dish Card 4 -->
+      <article class="dish-card reveal-up" style="--d:0.3s">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="Pan-seared scallops with cauliflower puree and brown butter" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Seared Scallop</h3>
+            <span class="dish-card__price">$29</span>
+          </div>
+          <p>Cauliflower purée, brown butter, golden raisin, toasted almond.</p>
+        </div>
+      </article>
+
+      <!-- Dish Card 5 -->
+      <article class="dish-card reveal-up" style="--d:0.4s">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&w=800&q=80" alt="Dark chocolate fondant with gold leaf and salted caramel" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Chocolate Fondant</h3>
+            <span class="dish-card__price">$18</span>
+          </div>
+          <p>72% dark chocolate, salted caramel core, gold leaf, vanilla crème.</p>
+        </div>
+      </article>
+
+      <!-- Dish Card 6 -->
+      <article class="dish-card reveal-up" style="--d:0.5s">
+        <span class="dish-card__corner dish-card__corner--tl"></span>
+        <span class="dish-card__corner dish-card__corner--tr"></span>
+        <span class="dish-card__corner dish-card__corner--bl"></span>
+        <span class="dish-card__corner dish-card__corner--br"></span>
+
+        <div class="dish-card__image">
+          <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80" alt="Chilled lobster bisque with cognac cream and chive oil" loading="lazy" />
+        </div>
+        <div class="dish-card__body">
+          <div class="dish-card__row">
+            <h3>Lobster Bisque</h3>
+            <span class="dish-card__price">$24</span>
+          </div>
+          <p>Cognac cream, chive oil, brioche crumb, whole lobster claw.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- ABOUT SECTION                  -->
+  <!-- ============================= -->
+  <section class="about" id="about">
+    <div class="about__media reveal-left">
+      <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=900&q=80" alt="Interior of the Noir & Or dining room at night, candlelit tables" loading="lazy" />
+      <div class="about__media-frame" aria-hidden="true"></div>
+      <div class="about__badge">
+        <span class="about__badge-number">12</span>
+        <span class="about__badge-label">Years of<br />Craft</span>
+      </div>
+    </div>
+
+    <div class="about__content reveal-right">
+      <p class="eyebrow">Our Story</p>
+      <h2>A room built for the evening</h2>
+      <p class="about__text">
+        Noir &amp; Or opened with a single idea: candlelight, patience, and precise cooking
+        say more than a long menu ever could. Every plate that leaves our pass has passed
+        through the hands of two people at most &mdash; nothing more, nothing rushed.
+      </p>
+      <p class="about__text">
+        Our kitchen sources from the same six farms year-round, and our cellar is built
+        one grower at a time. What you taste is the result of restraint, not excess.
+      </p>
+
+      <ul class="about__stats">
+        <li>
+          <span class="about__stat-value">6</span>
+          <span class="about__stat-label">Partner Farms</span>
+        </li>
+        <li>
+          <span class="about__stat-value">32</span>
+          <span class="about__stat-label">Seats Only</span>
+        </li>
+        <li>
+          <span class="about__stat-value">4.9</span>
+          <span class="about__stat-label">Guest Rating</span>
+        </li>
+      </ul>
+
+      <a href="#reserve" class="btn btn--outline">Discover the Menu</a>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- CTA / RESERVATION SECTION      -->
+  <!-- ============================= -->
+  <section class="cta" id="reserve">
+    <div class="cta__inner reveal-up">
+      <p class="eyebrow eyebrow--light">Tables Are Limited</p>
+      <h2 class="cta__title">Your evening starts with a booking</h2>
+      <p class="cta__desc">
+        We hold thirty-two seats a night. Reserve ahead to avoid disappointment,
+        or call the host desk for same-day availability.
+      </p>
+
+      <form class="cta__form" id="reserveForm" novalidate>
+        <div class="cta__field">
+          <label for="guestName">Full Name</label>
+          <input type="text" id="guestName" name="guestName" placeholder="Your name" required />
+        </div>
+        <div class="cta__field">
+          <label for="guestDate">Date</label>
+          <input type="date" id="guestDate" name="guestDate" required />
+        </div>
+        <div class="cta__field">
+          <label for="guestParty">Guests</label>
+          <select id="guestParty" name="guestParty" required>
+            <option value="" disabled selected hidden>Party size</option>
+            <option>1 Guest</option>
+            <option>2 Guests</option>
+            <option>3 Guests</option>
+            <option>4 Guests</option>
+            <option>5+ Guests</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--gold cta__submit">Confirm Reservation</button>
+      </form>
+
+      <p class="cta__confirmation" id="reserveMessage" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- FOOTER                         -->
+  <!-- ============================= -->
+  <footer class="footer" id="footer">
+    <div class="footer__top">
+
+      <div class="footer__col footer__brand">
+        <a href="#home" class="navbar__logo footer__logo">Noir <span>&amp;</span> Or</a>
+        <p>An intimate dining room in the heart of downtown, open every evening from 5pm.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Pinterest">PN</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#dishes">Tasting Menu</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#reserve">Reservations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <ul class="footer__contact">
+          <li>128 Rivermill Lane, Downtown</li>
+          <li>+1 (555) 042&ndash;1890</li>
+          <li>host@noiretor.example</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Hours</h4>
+        <ul class="footer__contact">
+          <li>Tue &ndash; Thu &nbsp; 5:00pm &ndash; 10:00pm</li>
+          <li>Fri &ndash; Sat &nbsp; 5:00pm &ndash; 11:30pm</li>
+          <li>Sun &ndash; Mon &nbsp; Closed</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__divider" aria-hidden="true"></div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Noir &amp; Or. All rights reserved.</p>
+      <p>Crafted with care for those who dine slowly.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
