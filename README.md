@@ -2,17 +2,13 @@
 It's a restuant home page or landing page built using HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo
-//aman-luc.github.io/Restaurant-/
+https://aman-luc.github.io/Restaurant-/
  
 ## 📸 Preview
 (Image)
 
 ## ✨ Features
-- Login
-- Register
-- Forgot Password
-- OTP Verification
-- Reset Password
+- Login/SingUp button
 - Success Page
 - 404 Page
 
