@@ -29,10 +29,23 @@ https://aman-luc.github.io/Restaurant-/
 
 The objective of this project was to design a visually appealing landing page suitable for restaurants, cafés and food businesses.
 
-## Preview
+## 📸 Preview
 
-![Hero Section](Assets/hero.png)
+### Hero
 
+![Hero](assets/hero.png)
+
+### Dishes
+
+![Dishes](assets/dishes.png)
+
+### About
+
+![About](assets/about.png)
+
+### Reservation
+
+![Reservation](assets/reservation.png)
 ## Author
 
 Aman Kumar
