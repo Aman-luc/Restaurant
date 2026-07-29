@@ -31,7 +31,7 @@ The objective of this project was to design a visually appealing landing page su
 
 ## Preview
 
-![Hero Section](Assets/screenshots/hero.png)
+![Hero Section](Assets/hero.png)
 
 ## Author
 
