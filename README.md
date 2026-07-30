@@ -33,19 +33,19 @@ The objective of this project was to design a visually appealing landing page su
 
 ### Hero
 
-![Hero](assets/hero.png)
+![Hero](/assets/hero.png)
 
 ### Dishes
 
-![Dishes](assets/dishes.png)
+![Dishes](/assets/dishes.png)
 
 ### About
 
-![About](assets/about.png)
+![About](/assets/about.png)
 
 ### Reservation
 
-![Reservation](assets/reservation.png)
+![Reservation](/assets/reservation.png)
 ## Author
 
 Aman Kumar
