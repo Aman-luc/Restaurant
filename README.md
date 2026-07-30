@@ -6,7 +6,7 @@ This project was created to showcase a modern restaurant website with an elegant
 
 ## Live Demo
 
-https://aman-luc.github.io/Restaurant-/
+https://aman-luc.github.io/Restaurant/
 
 ## Features
 
