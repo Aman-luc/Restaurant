@@ -46,6 +46,11 @@ The objective of this project was to design a visually appealing landing page su
 ### Reservation
 
 ![Reservation](Assets/reservation.png)
+
+### Contact
+
+![About](Assets/contact.png)
+
 ## Author
 
 Aman Kumar
